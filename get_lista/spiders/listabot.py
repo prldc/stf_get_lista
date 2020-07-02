@@ -16,7 +16,7 @@ class ListabotSpider(scrapy.Spider):
                         end
                    '''
     custom_settings = {
-        'FEED_URI': 'adi_lista.csv',
+        'FEED_URI': 'julgados_lista.csv',
         'FEED_FORMAT': 'csv',
         'FEED_EXPORTERS': {
             'csv': 'scrapy.exporters.CsvItemExporter',
